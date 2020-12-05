@@ -6,7 +6,7 @@ class paper {
           'friction':0.5,
           'density':1.2,
       }
-      this.body = Bodies.elipse(x, y,50,{options},{maxSlides});
+      this.body = Bodies.elipse(x, y,50,options);
      
       World.add(world, this.body);
     }
